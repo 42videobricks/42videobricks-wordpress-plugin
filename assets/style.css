@@ -1,0 +1,54 @@
+#input-settings {
+    min-width: 400px;
+}
+
+#videobricksFileInput {
+    display: none;
+}
+
+#videobricks-video-information, #videobricks-upload-information {
+    text-align: center;
+}
+
+#videobricks-upload-information {
+    padding-top: 20px;
+}
+
+#videobricks-upload-progress-bar {
+    display: none;
+    justify-content: center;
+}
+
+#dragAndDropContainer {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    margin-top: 20px;
+    border: 4px dashed #c3c4c7;
+    padding: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.video-drop-container-gret {
+    opacity: 0.5;
+    position: absolute;
+    display: none;
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+}
+
+.videobricks-error-message {
+    color: red;
+    margin-top: 0 !important;
+}
+
+.copy-shortcode-text {
+    position: absolute;
+    top: -30px;
+    right: -25px;
+    font-size: 15px;
+}
